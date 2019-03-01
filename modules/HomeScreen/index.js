@@ -55,7 +55,7 @@ class HomeScreen extends React.Component {
         </TouchableHighlight>
         <TouchableHighlight
           style={styles.vocabularyContainer}
-          onPress={() => navigate("KatakanaList")}
+          onPress={() => navigate("VocabularyList")}
         >
           <Text style={styles.itemText}>Vocabulary</Text>
         </TouchableHighlight>
