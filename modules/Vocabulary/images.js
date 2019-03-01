@@ -11,6 +11,7 @@ const images = {
   10: require("./img/voc10.png"),
   11: require("./img/voc11.png"),
   12: require("./img/voc12.png"),
+  13: require("./img/voc13.png"),
   14: require("./img/voc14.png"),
   15: require("./img/voc15.png"),
   16: require("./img/voc16.png"),
