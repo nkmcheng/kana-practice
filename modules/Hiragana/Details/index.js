@@ -1,6 +1,6 @@
 import React from "react";
 import { Text, View, Image, StyleSheet } from "react-native";
-import Images from "./images";
+import Images from "../images";
 
 class KatakanaDetails extends React.Component {
   static navigationOptions = {
