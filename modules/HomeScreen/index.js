@@ -53,12 +53,12 @@ class HomeScreen extends React.Component {
         >
           <Text style={styles.itemText}>Katakana / カタカナ</Text>
         </TouchableHighlight>
-        {/* <TouchableHighlight
+        <TouchableHighlight
           style={styles.vocabularyContainer}
           onPress={() => navigate("KatakanaList")}
         >
           <Text style={styles.itemText}>Vocabulary</Text>
-        </TouchableHighlight> */}
+        </TouchableHighlight>
       </View>
     );
   }
