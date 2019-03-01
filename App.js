@@ -7,6 +7,7 @@ import HiraganaList from "./modules/Hiragana/List";
 import HiraganaDetails from "./modules/Hiragana/Details";
 import KatakanaList from "./modules/Katakana/List";
 import KatakanaDetails from "./modules/Katakana/Details";
+import VocabularyList from "./modules/Vocabulary/List";
 
 const MainNavigator = createStackNavigator({
   Home: { screen: HomeScreen },
@@ -14,7 +15,8 @@ const MainNavigator = createStackNavigator({
   HiraganaList: { screen: HiraganaList },
   HiraganaDetails: { screen: HiraganaDetails },
   KatakanaList: { screen: KatakanaList },
-  KatakanaDetails: { screen: KatakanaDetails }
+  KatakanaDetails: { screen: KatakanaDetails },
+  VocabularyList: { screen: VocabularyList }
 });
 
 const App = createAppContainer(MainNavigator);
